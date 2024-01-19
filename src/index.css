@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+/* colors */
+:root {
+    --darkg: #3a837d;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 1.2rem;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-logo img {
+    width: 17vw;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1.9vw;
+}
+
+.navbar-item {
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.navbar-cta {
+    background-color: var(--darkg);
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    padding: 13px 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-cta:hover {
+    background-color: #397c77;
+}
+
+/* Home */
+.homebox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5rem;
+}
+
+.homebox-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.home-heading {
+    font-size: 4.2rem;
+    font-weight:bolder;
+}
+
+.home-description {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.homebutton {
+    width: 20vw;
+    border-radius: 45px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.span-green{
+    color: var(--darkg);
+}
+
+.whatsapp-description{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.home-ppls{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    gap: 3.7rem;
+}
