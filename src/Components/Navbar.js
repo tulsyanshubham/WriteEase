@@ -5,14 +5,14 @@ export default function Navbar() {
     return (
         <div>
             <nav className="navbar">
-                <div className="navbar-logo"><img src={logo} alt="no" /></div>
+                <div className="navbar-logo"><a href='/'><img src={logo} alt="no" /></a></div>
                 <ul className="navbar-menu">
-                    <li className="navbar-item">Use Cases</li>
-                    <li className="navbar-item">How it Works</li>
-                    <li className="navbar-item">Pricing</li>
-                    <li className="navbar-item">Contact</li>
+                    <li className="navbar-item"><a href='/'>Use Cases</a></li>
+                    <li className="navbar-item"><a href='/'>How it Works</a></li>
+                    <li className="navbar-item"><a href='/'>Pricing</a></li>
+                    <li className="navbar-item"><a href='/'>Contact</a></li>
                 </ul>
-                <div className="navbar-item navbar-cta">Get Started - it's Free</div>
+                <div className="navbar-item navbar-cta" >Get Started - it's Free</div>
             </nav>
         </div>
     )

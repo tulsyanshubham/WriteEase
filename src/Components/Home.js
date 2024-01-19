@@ -5,7 +5,6 @@ import ppl1 from '../assets/ppl1.png';
 import ppl2 from '../assets/ppl2.png';
 import ppl3 from '../assets/ppl3.png';
 import ppl4 from '../assets/ppl4.png';
-import { flushSync } from 'react-dom';
 
 export default function home() {
     return (
@@ -43,7 +42,7 @@ export default function home() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='homebox-right'>
                 <img src={whatsappimage} alt="whatsapp" />
             </div>
         </div>
