@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Poppins, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -76,9 +81,10 @@ a{
     height: 100vh;
     width: 100vw;
     padding-top: 5rem;
+    gap: 4vw;
 }
 
-.homebox-left{
+.homebox-left {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -86,7 +92,7 @@ a{
 
 .home-heading {
     font-size: 4.2rem;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .home-description {
@@ -103,17 +109,17 @@ a{
     justify-content: space-evenly;
 }
 
-.span-green{
+.span-green {
     color: var(--darkg);
 }
 
-.whatsapp-description{
+.whatsapp-description {
     font-size: 1.2rem;
     font-weight: bold;
     color: #8e8e8e;
 }
 
-.home-ppls{
+.home-ppls {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -121,13 +127,53 @@ a{
     gap: 3.7rem;
 }
 
-.homebox-right img{
+.homebox-right img {
     width: 19rem;
-    filter: drop-shadow(0 0 10rem rgb(87,196,187,0.7));
+    filter: drop-shadow(0 0 10rem rgb(87, 196, 187, 0.7));
 }
 
-.usecase-container{
-    height: 100vh;
+.usecase-container {
     width: 100vw;
     background: linear-gradient(225deg, #06CA77 0%, #02937C 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 2vw 6vw;
+    gap: 1vw;
+}
+
+.usercase-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.usercase-cards {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    gap: 2.5vw;
+    padding: 2.5vw 1.3vw;
+    font-size: 1.1rem;
+    border-radius: 13px;
+    box-shadow: #140444 -15px 15px;
+    margin: 1vw auto;
+    /* justify-content: space-evenly;
+    height: 17.2vw; */
+}
+
+.usercase-cards a {
+    color: #4aa29e;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.usercase-cards a img {
+    width: 10px;
+    margin-left: 70px;
 }
