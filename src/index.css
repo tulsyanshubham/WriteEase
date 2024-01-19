@@ -21,9 +21,10 @@ a {
 
 /* colors */
 :root {
-    --darkg: #3a837d;
+    --darkg: #38807c;
     --grey: #8e8e8e;
-    --lightg:#80d6ae;
+    --lightg: #80d6ae;
+    --hoverdarkg:#43908c;
 }
 
 /* Navbar */
@@ -72,7 +73,7 @@ a {
 }
 
 .navbar-cta:hover {
-    background-color: #397c77;
+    background-color: var(--hoverdarkg);
 }
 
 /* Home */
@@ -188,17 +189,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 2vw 6vw;
-    gap: 1vw; */
+    padding: 2vw 6vw;
+    /* gap: 1vw; */
 }
 
 .howitworks-box {
     display: flex;
-    padding: 3rem 6rem;
+    padding: 3rem 0rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
 }
 
 .works-left {
-    /* width: 50vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,15 +223,17 @@ a {
     height: 5.5rem;
     border-radius: 50%;
 }
-.number-float{
+
+.number-float {
     width: 5.5rem;
     height: 5.5rem;
     border-radius: 50%;
     position: absolute;
-    background-color: rgb(128, 214, 174,0.5);
+    background-color: rgb(128, 214, 174, 0.5);
     top: 6px;
     right: 6px;
 }
+
 .number span {
     color: white;
     font-size: 3rem;
@@ -263,4 +268,52 @@ a {
     float: left;
     position: absolute;
     top: 3rem;
+}
+
+.works-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: fit-content;
+}
+
+.benefits {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #489f7d;
+}
+
+.works-right :nth-child(2) {
+    font-weight: 700;
+    font-size: 3.5rem;
+    width: fit-content;
+}
+
+.works-right :nth-child(3) {
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 1.6rem;
+    width: 32rem;
+}
+
+.works-right :nth-child(4) {
+    background-color: var(--darkg);
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.7rem;
+    border-radius: 40px;
+    box-shadow: #140444 -7px 7px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.works-right :nth-child(4):hover{
+    background-color: var(--hoverdarkg);
+}
+.works-right :nth-child(4):active{
+    background-color: #397c77;
+    box-shadow: #140444 -3px 3px;
+    transform: translateY(3px);
+    transform: translatex(-3px);
 }

@@ -7,9 +7,9 @@ import HowItWorks from './Components/HowItWorks';
 function App() {
   return (
     <div>
-      {/* <Navbar/>
+      <Navbar/>
       <Home/>
-      <UseCases/> */}
+      <UseCases/>
       <HowItWorks/>
     </div>
   );

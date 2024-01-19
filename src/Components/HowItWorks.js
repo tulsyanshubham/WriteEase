@@ -56,10 +56,13 @@ export default function HowItWorks() {
                 </div>
 
                 <div className="works-right">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className='benefits'>Benefits</div>
+                    <div>
+                        <div>Accessibility and</div>
+                        <div>Convenience</div>
+                    </div>
+                    <div>By leveraging a widely-used messaging platform like WhatsApp, users can easily access the capabilities of ChatGPT without the need to download a new application.</div>
+                    <div>Get Started</div>
                 </div>
             </div>
         </div>

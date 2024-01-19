@@ -10,8 +10,10 @@ export default function home() {
     return (
         <div className='homebox'>
             <div className='homebox-left'>
+                <div>
                 <div className='home-heading'>The Power of ChatGPT</div>
                 <div className='home-heading'>on <span className="span-green"> WhatsApp! </span></div>
+                </div>
                 <div>
                     <p className='home-description'>Whether you&acute;r are a <span className="span-green">writer</span>, <span className="span-green">marketer</span>, or <span className="span-green">enterpreneur</span>,</p>
                     <p className='home-description'>WriteEase can help you out on your daily tasks.</p>
