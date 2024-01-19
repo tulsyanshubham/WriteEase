@@ -22,6 +22,8 @@ a {
 /* colors */
 :root {
     --darkg: #3a837d;
+    --grey: #8e8e8e;
+    --lightg:#80d6ae;
 }
 
 /* Navbar */
@@ -98,7 +100,7 @@ a {
 .home-description {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #8e8e8e;
+    color: var(--grey);
 }
 
 .homebutton {
@@ -116,7 +118,7 @@ a {
 .whatsapp-description {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #8e8e8e;
+    color: var(--grey);
 }
 
 .home-ppls {
@@ -131,6 +133,8 @@ a {
     width: 19rem;
     filter: drop-shadow(0 0 10rem rgb(87, 196, 187, 0.7));
 }
+
+/* Use Cases */
 
 .usecase-container {
     width: 100vw;
@@ -176,4 +180,87 @@ a {
 .usercase-cards a img {
     width: 10px;
     margin-left: 70px;
+}
+
+/* How it Works */
+.howitworks-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 2vw 6vw;
+    gap: 1vw; */
+}
+
+.howitworks-box {
+    display: flex;
+    padding: 3rem 6rem;
+}
+
+.works-left {
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(7, 0fr);
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkg);
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+.number-float{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(128, 214, 174,0.5);
+    top: 6px;
+    right: 6px;
+}
+.number span {
+    color: white;
+    font-size: 3rem;
+}
+
+.vertical_line {
+    width: 3px;
+    height: 5.5rem;
+    background-color: var(--lightg);
+    margin: 0.7rem 0rem;
+}
+
+.step-content {
+    width: 35rem;
+    padding: 0rem 2.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    position: relative;
+}
+
+.step-content :nth-child(1) {
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.step-content :nth-child(2) {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--grey);
+    width: 65%;
+    float: left;
+    position: absolute;
+    top: 3rem;
 }

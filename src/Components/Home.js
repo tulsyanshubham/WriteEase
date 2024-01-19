@@ -13,7 +13,7 @@ export default function home() {
                 <div className='home-heading'>The Power of ChatGPT</div>
                 <div className='home-heading'>on <span className="span-green"> WhatsApp! </span></div>
                 <div>
-                    <p className='home-description'>Whether you’r are a <span className="span-green">writer</span>, <span className="span-green">marketer</span>, or <span className="span-green">enterpreneur</span>,</p>
+                    <p className='home-description'>Whether you&acute;r are a <span className="span-green">writer</span>, <span className="span-green">marketer</span>, or <span className="span-green">enterpreneur</span>,</p>
                     <p className='home-description'>WriteEase can help you out on your daily tasks.</p>
                 </div>
                 <div style={{display:"flex",flexDirection:"column",justifyContent:"center",width: "fit-content",gap:"1rem"}}>
