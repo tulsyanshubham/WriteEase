@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/WriteEase/static/css/main.399242a2.css",
+    "main.js": "/WriteEase/static/js/main.d34af65e.js",
+    "static/media/whatsapp.png": "/WriteEase/static/media/whatsapp.102a275b930588e7618e.png",
+    "static/media/logo.png": "/WriteEase/static/media/logo.14c55a9b9ca9a7fb7748.png",
+    "static/media/ppl3.png": "/WriteEase/static/media/ppl3.646569a127c35cfc1492.png",
+    "static/media/ppl4.png": "/WriteEase/static/media/ppl4.414f954b258fa5c28d18.png",
+    "static/media/ppl1.png": "/WriteEase/static/media/ppl1.f77a4ac665166d791443.png",
+    "static/media/ppl2.png": "/WriteEase/static/media/ppl2.023ba44d9e363f809e67.png",
+    "index.html": "/WriteEase/index.html",
+    "main.399242a2.css.map": "/WriteEase/static/css/main.399242a2.css.map",
+    "main.d34af65e.js.map": "/WriteEase/static/js/main.d34af65e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.399242a2.css",
+    "static/js/main.d34af65e.js"
+  ]
+}
