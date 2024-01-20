@@ -6,7 +6,7 @@ import HowItWorks from './Components/HowItWorks';
 import Message from './Components/Message';
 import Pricing from './Components/Pricing';
 import Ready from './Components/Ready';
-import About from './Components/About';
+import ContactUs from './Components/ContactUs';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Message/>
       <Pricing/>
       <Ready/>
-      <About/>
+      <ContactUs/>
     </div>
   );
 }
