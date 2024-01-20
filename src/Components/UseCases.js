@@ -13,7 +13,7 @@ export default function UseCases() {
         { title: "Product Descrption", description: "Al helps to succinctly showcase product highlights." },
     ]
     return (
-        <div className='usecase-container'>
+        <div className='usecase-container' id='link1'>
             <div>
                 <h1 style={{textAlign:"center", fontSize:"2.5vw"}}>Use Cases</h1>
                 <span style={{ fontWeight: "lighter" }}>Write Better Content faster, the future AI writing Tools is here</span>

@@ -7,12 +7,12 @@ export default function Navbar() {
             <nav className="navbar">
                 <div className="navbar-logo"><a href='/'><img src={logo} alt="no" /></a></div>
                 <ul className="navbar-menu">
-                    <li className="navbar-item"><a href='/'>Use Cases</a></li>
-                    <li className="navbar-item"><a href='/'>How it Works</a></li>
-                    <li className="navbar-item"><a href='/'>Pricing</a></li>
+                    <li className="navbar-item"><a href='#link1'>Use Cases</a></li>
+                    <li className="navbar-item"><a href='#link2'>How it Works</a></li>
+                    <li className="navbar-item"><a href='#link3'>Pricing</a></li>
                     <li className="navbar-item"><a href='/'>Contact</a></li>
                 </ul>
-                <div className="navbar-item navbar-cta" >Get Started - it's Free</div>
+                <a href='/'><div className="navbar-item navbar-cta" >Get Started - it's Free</div></a>
             </nav>
         </div>
     )

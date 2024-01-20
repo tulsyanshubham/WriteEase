@@ -19,10 +19,10 @@ export default function home() {
                     <p className='home-description'>WriteEase can help you out on your daily tasks.</p>
                 </div>
                 <div style={{display:"flex",flexDirection:"column",justifyContent:"center",width: "fit-content",gap:"1rem"}}>
-                    <div className="homebutton navbar-item navbar-cta">
+                    <a href='/'><div className="homebutton navbar-item navbar-cta">
                         <img src={whatsapp_logo} alt="" />
                         <span style={{ display: "flex", alignItems: "center" }}> Start on Whatsapp</span>
-                    </div>
+                    </div></a>
                     <span className='whatsapp-description' style={{textAlign:"center"}}>Get your free account today</span>
                 </div>
                 <div className="home-ppls">

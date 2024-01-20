@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Pricing() {
     return (
-        <div className='pricing-container'>
+        <div className='pricing-container' id='link3'>
             <div className='title-box'>
                 <div className='pricing-title'>Pricing Plan</div>
                 <div className='pricing-description'>
@@ -18,7 +18,7 @@ export default function Pricing() {
                     </div>
                     <div>Give it a go without any <br />commitment.</div>
                     <div className="pricing-card-child3">
-                        <div className='pricing-btn'>Start for free</div>
+                        <a href='/'><div className='pricing-btn'>Start for free</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>100 messages per month</li>
@@ -38,7 +38,7 @@ export default function Pricing() {
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
-                        <div className='pricing-btn'>Choose Plan</div>
+                        <a href='/'><div className='pricing-btn'>Choose Plan</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>Unlimited Messages</li>
@@ -58,7 +58,7 @@ export default function Pricing() {
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
-                        <div className='pricing-btn'>Choose Plan</div>
+                        <a href='/'><div className='pricing-btn'>Choose Plan</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>Unlimited Messages</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HowItWorks() {
     return (
-        <div className='howitworks-container'>
+        <div className='howitworks-container' id='link2'>
             <div>
                 <h1 style={{ textAlign: "center", fontSize: "2.5vw" }}>How it works</h1>
                 <span style={{ fontWeight: "lighter" }}>Don&acute;t Worry We&acute;ll keep it very simple. Get started</span>
@@ -62,7 +62,7 @@ export default function HowItWorks() {
                         <div>Convenience</div>
                     </div>
                     <div>By leveraging a widely-used messaging platform like WhatsApp, users can easily access the capabilities of ChatGPT without the need to download a new application.</div>
-                    <div>Get Started</div>
+                    <a href='/'><div> Get Started</div></a>
                 </div>
             </div>
         </div>
