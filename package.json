@@ -1,5 +1,4 @@
 {
-  "homepage": "https://tulsyanshubham.github.io/WriteEase",
   "name": "writeease",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "render": "concurrently \"npm install\" \"npm run build\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
