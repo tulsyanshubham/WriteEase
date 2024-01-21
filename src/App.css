@@ -9,11 +9,55 @@
     .hide {
         display: none;
     }
+    .home-heading {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .home-description {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .homebutton {
+        font-size: 17px;
+        padding: 10px 16px;
+
+        img {
+            width: 1.9rem
+        }
+    }
+    .whatsapp-description {
+        font-size: 0.9rem;
+    }
+    .homebox-right img{
+        width: 89vw;
+    }
+    .home-container {
+        gap: 11vw;
+        height: fit-content;
+    }
+    .home-js-insert{
+        display: flex;
+        justify-content: space-between;
+        .pple-boxes{
+            img{
+                width: 13vw;
+            }
+            span {
+                font-size: 0.7rem;
+                padding: 1px 7px;
+            }
+        }
+    }
 
     .non-hide {
         display: block;
     }
 
+    .usercase-cards{
+        padding: 3.5vw 3.3vw;
+    }
     .step-content :nth-child(1) {
         font-size: 100%;
     }
@@ -67,8 +111,12 @@
         font-size: 3.8vw;
     }
 
-    .message-cards-box {
+    .message-cards-box-parent {
         width: 63%;
+
+        .message-cards-box {
+            width: 100%;
+        }
     }
 
     .card-title {
@@ -131,22 +179,27 @@
             margin-top: 0.5rem;
         }
     }
-    .info{
+
+    .info {
         width: 100vw;
         font-size: 1.2rem;
     }
-    .contact-box{
+
+    .contact-box {
         width: 100vw;
         text-align: center;
-        .contact-box-child{
+
+        .contact-box-child {
             width: 100vw;
             margin-bottom: 3rem;
-            li{
+
+            li {
                 font-size: 1.3rem;
                 color: var(--grey);
             }
         }
     }
+
     .strong {
         font-size: 1.5rem;
     }

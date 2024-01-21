@@ -3,12 +3,16 @@ import React, { useEffect } from 'react';
 export default function Pricing() {
 
     useEffect(()=> {
+        const price = document.querySelectorAll('.pricing-js-change');
         if (window.innerWidth < 767) {
-            const price = document.querySelectorAll('.pricing-js-change');
             price[0].innerHTML=`<span> $0 </span><a class='non-hide' href='/'><div class='pricing-btn'>Start for free</div></a>`;
             price[1].innerHTML=`<span> $5 </span><a class='non-hide' href='/'><div class='pricing-btn'>Choose Plan</div></a>`;
             price[2].innerHTML=`<span> $49 </span><a class='non-hide' href='/'><div class='pricing-btn'>Choose Plan</div></a>`;
-        } 
+        }else{
+            price[0].innerHTML=`<span> $0 </span>`;
+            price[1].innerHTML=`<span> $5 </span>`;
+            price[2].innerHTML=`<span> $49 </span>`;
+        }
     })
 
     return (
@@ -24,7 +28,9 @@ export default function Pricing() {
                 <div className="pricing-card">
                     <div className="pricing-card-child1">
                         <div className='price-type'>Free</div>
-                        <div className='pricing-js-change'><span> $0 </span></div>
+                        <div className='pricing-js-change'>
+                            {/* <span> $0 </span> */}
+                            </div>
                     </div>
                     <div>Give it a go without any <br />commitment.</div>
                     <div className="pricing-card-child3">
@@ -44,7 +50,9 @@ export default function Pricing() {
                 <div className="pricing-card">
                     <div className="pricing-card-child1">
                         <div className='price-type'>Preium Monthly</div>
-                        <div className='pricing-js-change'><span> $5 </span></div>
+                        <div className='pricing-js-change'>
+                            {/* <span> $5 </span> */}
+                            </div>
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
@@ -64,7 +72,9 @@ export default function Pricing() {
                 <div className="pricing-card">
                     <div className="pricing-card-child1">
                         <div className='price-type'>Preium Yearly</div>
-                        <div className='pricing-js-change'><span> $49 </span></div>
+                        <div className='pricing-js-change'>
+                            {/* <span> $49 </span> */}
+                            </div>
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
