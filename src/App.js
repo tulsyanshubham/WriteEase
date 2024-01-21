@@ -11,14 +11,14 @@ import ContactUs from './Components/ContactUs';
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Home/>
-      <UseCases/>
-      <HowItWorks/>
-      <Message/>
-      <Pricing/>
-      <Ready/>
-      <ContactUs/>
+      {/* <UseCases/> */}  {/*complete*/}
+      {/* <HowItWorks/> */} {/*complete*/}
+      {/* <Message/> */} {/*complete*/}
+      {/* <Pricing/> */} {/*complete*/}
+      {/* <Ready/> */} {/*complete*/}
+      {/* <ContactUs/> */} {/*complete*/}
     </div>
   );
 }

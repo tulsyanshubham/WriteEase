@@ -18,7 +18,7 @@ export default function Message() {
                         <div>Writing great marketing copy has <span>never been this easy.</span> Since I started using Copy.ai, I spend only a few minutes to whip myself a good piece, whether it's for our blog, social media posts or while creating online ads. Now, marketers like me have no excuse.</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#de716d" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Tina</div>
+                            <div className='color-name'>Tina</div>
                         </div>
                     </div>
                     <div className="message-card">
@@ -26,27 +26,27 @@ export default function Message() {
                         <div>I spend only a few minutes to whip myself a good piece</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#7362f2" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Anuraag</div>
+                            <div className='color-name'>Anuraag</div>
                         </div>
                     </div>
-                    <div className="message-card">
+                    <div className="message-card hide">
                         <div className='card-title'>Fantastic</div>
                         <div>Writing great marketing copy has <span>never been this easy.</span> Since I started using Copy.ai, I spend only a few minutes to whip myself a good piece</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#f2eb5e" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Rakesh</div>
+                            <div className='color-name'>Rakesh</div>
                         </div>
                     </div>
-                    <div className='emptycard'></div>
+                    <div className='emptycard hide'></div>
                 </div>
-                <div className='message-cards-box'>
+                <div className='message-cards-box hide'>
                     <div className='emptycard'></div>
                     <div className="message-card">
                         <div className='card-title'>Very Easy</div>
                         <div>Writing great marketing copy has <span>never been this easy.</span> Since I started using Copy.ai, I spend only a few minutes to whip myself a good piece</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#7a1a5f" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Rahul</div>
+                            <div className='color-name'>Rahul</div>
                         </div>
                     </div>
                     <div className="message-card">
@@ -54,7 +54,7 @@ export default function Message() {
                         <div>Amazing product. Helps me to write clearly all of my assignments</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#bad79d" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Saini</div>
+                            <div className='color-name'>Saini</div>
                         </div>
                     </div>
                     <div className="message-card">
@@ -62,7 +62,7 @@ export default function Message() {
                         <div>Writing great marketing copy has <span>never been this easy.</span> Since I started using Copy.ai, I spend only a few minutes to whip myself a good piece, whether it's for our blog, social media posts or while creating online ads. Now, marketers like me have no excuse.</div>
                         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                             <div className='msg-color-circle' style={{ backgroundColor: "#d8925c" }}></div>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "600" }}>Shila</div>
+                            <div className='color-name'>Shila</div>
                         </div>
                     </div>
                 </div>

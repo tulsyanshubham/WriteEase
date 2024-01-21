@@ -15,8 +15,8 @@ export default function UseCases() {
     return (
         <div className='usecase-container' id='link1'>
             <div>
-                <h1 style={{textAlign:"center", fontSize:"2.5vw"}}>Use Cases</h1>
-                <span style={{ fontWeight: "lighter" }}>Write Better Content faster, the future AI writing Tools is here</span>
+                <h1 style={{textAlign:"center", fontSize:"2.5rem"}}>Use Cases</h1>
+                <div style={{ fontWeight: "lighter",textAlign:"center" }}>Write Better Content faster, the future AI writing Tools is here</div>
             </div>
             <div className="usercase-box" style={{ color: "black" }}>
                 {

@@ -4,7 +4,7 @@ export default function HowItWorks() {
     return (
         <div className='howitworks-container' id='link2'>
             <div>
-                <h1 style={{ textAlign: "center", fontSize: "2.5vw" }}>How it works</h1>
+                <h1 style={{ textAlign: "center", fontSize: "2.2rem" }}>How it works</h1>
                 <span style={{ fontWeight: "lighter" }}>Don&acute;t Worry We&acute;ll keep it very simple. Get started</span>
             </div>
             <div className='howitworks-box'>
@@ -17,7 +17,7 @@ export default function HowItWorks() {
                         </div>
                         <div className='step-content'>
                             <div>Send a Message on WhatsApp</div>
-                            <div>This could a request, command, or a request for information.</div>
+                            <div className='step-content-description'>This could a request, command, or a request for information.</div>
                         </div>
                         <div style={{ display: "flex", justifyContent: "center" }}><div className="vertical_line"></div></div>
                         <div></div>
@@ -28,7 +28,7 @@ export default function HowItWorks() {
                         </div>
                         <div className='step-content'>
                             <div>Message Processing using AI</div>
-                            <div>ChatGPT understand the context and intent behind the user's text.</div>
+                            <div className='step-content-description'>ChatGPT understand the context and intent behind the user's text.</div>
                         </div>
                         <div style={{ display: "flex", justifyContent: "center" }}><div className="vertical_line"></div></div>
                         <div></div>
@@ -39,7 +39,7 @@ export default function HowItWorks() {
                         </div>
                         <div className='step-content'>
                             <div>ChatGPT Generates a Response</div>
-                            <div>The response can be tailored based on the user's previous interactions.</div>
+                            <div className='step-content-description'>The response can be tailored based on the user's previous interactions.</div>
                         </div>
                         <div style={{ display: "flex", justifyContent: "center" }}><div className="vertical_line"></div></div>
                         <div></div>
@@ -50,7 +50,7 @@ export default function HowItWorks() {
                         </div>
                         <div className='step-content'>
                             <div>Delivery of Response via WhatsApp</div>
-                            <div>The user can continue the conversation or make new queries as desired.</div>
+                            <div className='step-content-description'>The user can continue the conversation or make new queries as desired.</div>
                         </div>
                     </div>
                 </div>

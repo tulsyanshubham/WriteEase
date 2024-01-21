@@ -144,7 +144,7 @@ a {
     flex-direction: column;
     align-items: center;
     color: white;
-    padding: 2vw 6vw;
+    padding: 1.9rem 6vw;
     gap: 1vw;
 }
 
@@ -206,6 +206,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 6rem;
 }
 
 .works-grid {
@@ -252,8 +253,8 @@ a {
 }
 
 .step-content {
-    width: 35rem;
-    padding: 0rem 2.8rem;
+    width: 34rem;
+    padding-left: 2.8rem;
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
@@ -262,10 +263,10 @@ a {
 
 .step-content :nth-child(1) {
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 168%;
 }
 
-.step-content :nth-child(2) {
+.step-content-description {
     font-weight: 500;
     font-size: 1.5rem;
     color: var(--grey);
@@ -304,9 +305,9 @@ a {
 .works-right :nth-child(4) {
     background-color: var(--darkg);
     width: fit-content;
-    padding: 1.1rem 1.9rem;
     color: white;
-    font-size: 1.7rem;
+    padding: 4% 5%;
+    font-size: 136%;
     border-radius: 40px;
     box-shadow: #140444 -7px 7px;
     transition: all 0.1s ease-in-out;
@@ -385,6 +386,11 @@ a {
     border-radius: 50%;
 }
 
+.color-name {
+    font-size: 100%;
+    font-weight: 600;
+}
+
 .card-title {
     font-weight: 700;
     font-size: 1.15rem;
@@ -414,6 +420,7 @@ a {
 
 .pricing-card {
     padding: 1.5rem 3.5rem 4.5rem 1.5rem;
+    /* padding: 3% 6% 9% 3%; */
     background: url('./assets/spray.png') no-repeat center center/cover;
     border-radius: 20px;
     display: flex;
@@ -433,18 +440,16 @@ a {
     font-weight: bold;
 }
 
-.pricing-card-child1 {
-    :first-child {
+.pricing-js-change{
         font-weight: 700;
-        font-size: 1.7rem;
-        color: #4aa29e;
-    }
-
-    :last-child {
-        font-weight: 700;
-        font-size: 4.5rem;
+        font-size: 4rem;
         color: #1b4543;
     }
+
+.price-type {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #4aa29e;
 }
 
 .pricing-btn {
@@ -501,6 +506,11 @@ a {
     width: 100vw;
 }
 
+.pricing-card-child1 div span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .ready-box {
     color: white;
     display: flex;
@@ -524,16 +534,17 @@ a {
 
 .ready-box div {
     text-align: center;
-    width: fit-content;
 }
 
 .ready-title {
+    width: fit-content;
     font-weight: 700;
     font-size: 2.8rem;
 }
 
 .ready-description {
     font-size: 1.4rem;
+    width: 28rem;
 }
 
 /* Contact */
@@ -542,37 +553,38 @@ a {
     display: flex;
     font-size: 1.1rem;
     padding: 5rem 0rem 1rem 0rem;
-    li{
+    flex-wrap: wrap-reverse;
+
+    li {
         list-style: none;
     }
 }
 
 .contact-box {
+    width: 65%;
     display: flex;
-    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .info {
-    width: 44%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
     img {
         width: 20rem;
     }
-}
-
-.contact-box {
-    width: 56%;
 }
 
 .contact-box-child {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    padding-top: 1rem;
-    ul{
+    align-items: center;
+
+    ul {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -581,14 +593,20 @@ a {
 
 .strong {
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
 }
 
-.copyright{
+.copyright {
     font-weight: 800;
     text-align: center;
     padding: 2rem 0rem;
-    span{
+
+    span {
         color: var(--darkg);
     }
+}
+
+.non-hide {
+    display: none;
 }

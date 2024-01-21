@@ -17,22 +17,26 @@ export default function ContactUs() {
         </div>
         <div className='contact-box'>
           <div className='contact-box-child'>
-            <div className='strong'>Company</div>
-            <ul>
-              <li>About Us</li>
-              <li>Privacy Policy</li>
-              <li>Terms of Service</li>
-              <li>Contact Us</li>
-            </ul>
+            <div>
+              <div className='strong'>Company</div>
+              <ul>
+                <li>About Us</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
           </div>
           <div className='contact-box-child'>
-            <div className='strong'>Product</div>
-            <ul>
-              <li>Use Cases</li>
-              <li>How it Works</li>
-              <li>Pricing</li>
-              <li>Get Started</li>
-            </ul>
+            <div>
+              <div className='strong'>Product</div>
+              <ul>
+                <li>Use Cases</li>
+                <li>How it Works</li>
+                <li>Pricing</li>
+                <li>Get Started</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

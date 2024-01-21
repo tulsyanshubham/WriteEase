@@ -1,0 +1,153 @@
+:root {
+    --darkg: #38807c;
+    --grey: #8e8e8e;
+    --lightg: #80d6ae;
+    --hoverdarkg: #43908c;
+}
+
+@media only screen and (max-width: 767px) {
+    .hide {
+        display: none;
+    }
+
+    .non-hide {
+        display: block;
+    }
+
+    .step-content :nth-child(1) {
+        font-size: 100%;
+    }
+
+    .step-content-description {
+        font-size: 100%;
+        top: 1.5rem;
+    }
+
+    .step-content {
+        width: 18rem;
+    }
+
+    .number {
+        width: 3.5rem;
+        height: 3.5rem;
+
+        span {
+            font-size: 2.3rem;
+        }
+    }
+
+    .number-float {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .number-float:hover {
+        transform: translate(0, 0);
+    }
+
+    .step-content {
+        padding-left: 1.8rem;
+    }
+
+    .vertical_line {
+        height: 4rem;
+    }
+
+    .works-right :nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .works-right :nth-child(3) {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .msg {
+        width: 37%;
+        font-size: 3.8vw;
+    }
+
+    .message-cards-box {
+        width: 63%;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .message-card {
+        padding: 2rem 1rem 1rem 1.2rem;
+        gap: 0.5rem;
+
+        :nth-child(2) {
+            font-size: 0.6rem;
+        }
+    }
+
+    .msg-color-circle {
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+
+    .color-name {
+        font-size: 90%;
+        font-weight: 600;
+    }
+
+    .message-container {
+        padding: 0.7rem 0;
+    }
+
+    .pricing-js-change {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pricing-btn {
+        font-size: 1.2rem;
+        padding: 0.5rem 1.4rem;
+    }
+
+    .pricing-card {
+        width: 90%;
+        gap: 1rem;
+        padding: 5% 6% 9% 5%;
+    }
+
+    .ready-title {
+        font-size: 2rem;
+    }
+
+    .ready-description {
+        font-size: 1rem;
+        width: 23rem;
+    }
+
+    .ready-box {
+        :nth-child(3) {
+            padding: 1rem 1.7rem;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+    }
+    .info{
+        width: 100vw;
+        font-size: 1.2rem;
+    }
+    .contact-box{
+        width: 100vw;
+        text-align: center;
+        .contact-box-child{
+            width: 100vw;
+            margin-bottom: 3rem;
+            li{
+                font-size: 1.3rem;
+                color: var(--grey);
+            }
+        }
+    }
+    .strong {
+        font-size: 1.5rem;
+    }
+}
