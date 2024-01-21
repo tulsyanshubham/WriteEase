@@ -296,7 +296,7 @@
         text-align: center;
 
         .contact-box-child {
-            width: 100vw;
+            width: 100%;
             margin-bottom: 3rem;
 
             li {
