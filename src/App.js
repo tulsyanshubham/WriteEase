@@ -11,7 +11,7 @@ import ContactUs from './Components/ContactUs';
 function App() {
   return (
     <div>
-      {/* <Navbar/> */} {/*complete*/}
+      <Navbar/>
       <Home/> {/*complete*/}
       <UseCases/> {/*complete*/}
       <HowItWorks/> {/*complete*/}

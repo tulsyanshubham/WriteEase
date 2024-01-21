@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 
 export default function ContactUs() {
   return (
-    <div>
+    <div id='link4'>
       <div className='contact-container'>
         <div className='info'>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.8rem" }}>
@@ -20,10 +20,10 @@ export default function ContactUs() {
             <div>
               <div className='strong'>Company</div>
               <ul>
-                <li>About Us</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Contact Us</li>
+                <a href='/'><li>About Us</li></a>
+                <a href='/'><li>Privacy Policy</li></a>
+                <a href='/'><li>Terms of Service</li></a>
+                <a href='/'><li>Contact Us</li></a>
               </ul>
             </div>
           </div>
@@ -31,10 +31,10 @@ export default function ContactUs() {
             <div>
               <div className='strong'>Product</div>
               <ul>
-                <li>Use Cases</li>
-                <li>How it Works</li>
-                <li>Pricing</li>
-                <li>Get Started</li>
+                <a href='#link1'><li>Use Cases</li></a>
+                <a href='#link2'><li>How it Works</li></a>
+                <a href='#link3'><li>Pricing</li></a>
+                <a href='/'><li>Get Started</li></a>
               </ul>
             </div>
           </div>

@@ -6,9 +6,91 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .non-hide {
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+    .ham-icon{
+        z-index: 2;
+    }
+    .ham-icon div {
+        height: 0.6vw;
+        width: 8vw;
+        background-color: black;
+        margin: 1.3vw 0;
+        /* border-radius: 20px; */
+    }
+
+    .header {
+        position: fixed;
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        padding: 15px 27px 9px 27px;
+        align-items: center;
+        background-color: white;
+        z-index: 3;
+
+        img {
+            width: 50vw;
+        }
+    }
+
+    .navbar-logo {
+        height: fit-content;
+    }
+    .cover{
+        height: 100vh;
+        position: fixed;
+        width: 100vw;
+        z-index: 4;
+        background-color: white;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: start;
+        width: 72vw;
+        background-color: white;
+        height: 100vh;
+        gap: 1.5rem;
+        transition: all 0.3s ease-in-out;
+        z-index: 5;
+        left: -72vw;
+        border-right: 3px solid #0000006e;
+
+        .navbar-logo img {
+            width: 15rem;
+        }
+
+        ul {
+            flex-direction: column;
+            width: 100%;
+
+            a {
+                width: 100%;
+
+                li {
+                    font-size: 2rem;
+                    width: 100%;
+                    text-align: center;
+                    :active{
+                        background-color: rgba(0, 0, 0, 0.114);
+                    }
+                }
+            }
+        }
+
+    }
+
     .hide {
         display: none;
     }
+
     .home-heading {
         font-size: 8vw;
         text-align: center;
@@ -27,23 +109,30 @@
             width: 1.9rem
         }
     }
+
     .whatsapp-description {
         font-size: 0.9rem;
     }
-    .homebox-right img{
+
+    .homebox-right img {
         width: 89vw;
     }
+
     .home-container {
         gap: 11vw;
         height: fit-content;
+        padding-top: 6rem;
     }
-    .home-js-insert{
+
+    .home-js-insert {
         display: flex;
         justify-content: space-between;
-        .pple-boxes{
-            img{
+
+        .pple-boxes {
+            img {
                 width: 13vw;
             }
+
             span {
                 font-size: 0.7rem;
                 padding: 1px 7px;
@@ -51,13 +140,17 @@
         }
     }
 
-    .non-hide {
-        display: block;
+
+
+    .usecase-container {
+        width: 100vw;
+        background: linear-gradient(0deg, #06CA77 0%, #02937C 100%);
     }
 
-    .usercase-cards{
+    .usercase-cards {
         padding: 3.5vw 3.3vw;
     }
+
     .step-content :nth-child(1) {
         font-size: 100%;
     }
