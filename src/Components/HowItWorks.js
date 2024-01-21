@@ -62,7 +62,7 @@ export default function HowItWorks() {
                         <div>Convenience</div>
                     </div>
                     <div>By leveraging a widely-used messaging platform like WhatsApp, users can easily access the capabilities of ChatGPT without the need to download a new application.</div>
-                    <a href='/WriteEase'><div> Get Started</div></a>
+                    <a href='/'><div> Get Started</div></a>
                 </div>
             </div>
         </div>

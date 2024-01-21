@@ -5,9 +5,9 @@ export default function Pricing() {
     useEffect(()=> {
         const price = document.querySelectorAll('.pricing-js-change');
         if (window.innerWidth < 767) {
-            price[0].innerHTML=`<span> $0 </span><a class='non-hide' href='/WriteEase'><div class='pricing-btn'>Start for free</div></a>`;
-            price[1].innerHTML=`<span> $5 </span><a class='non-hide' href='/WriteEase'><div class='pricing-btn'>Choose Plan</div></a>`;
-            price[2].innerHTML=`<span> $49 </span><a class='non-hide' href='/WriteEase'><div class='pricing-btn'>Choose Plan</div></a>`;
+            price[0].innerHTML=`<span> $0 </span><a class='non-hide' href='/'><div class='pricing-btn'>Start for free</div></a>`;
+            price[1].innerHTML=`<span> $5 </span><a class='non-hide' href='/'><div class='pricing-btn'>Choose Plan</div></a>`;
+            price[2].innerHTML=`<span> $49 </span><a class='non-hide' href='/'><div class='pricing-btn'>Choose Plan</div></a>`;
         }else{
             price[0].innerHTML=`<span> $0 </span>`;
             price[1].innerHTML=`<span> $5 </span>`;
@@ -34,7 +34,7 @@ export default function Pricing() {
                     </div>
                     <div>Give it a go without any <br />commitment.</div>
                     <div className="pricing-card-child3">
-                        <a className='hide' href='/WriteEase'><div className='pricing-btn'>Start for free</div></a>
+                        <a className='hide' href='/'><div className='pricing-btn'>Start for free</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>100 messages per month</li>
@@ -56,7 +56,7 @@ export default function Pricing() {
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
-                        <a className='hide' href='/WriteEase'><div className='pricing-btn'>Choose Plan</div></a>
+                        <a className='hide' href='/'><div className='pricing-btn'>Choose Plan</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>Unlimited Messages</li>
@@ -78,7 +78,7 @@ export default function Pricing() {
                     </div>
                     <div>Give the best ChatGPT in <br />WhatsApp.</div>
                     <div className="pricing-card-child3">
-                        <a className='hide' href='/WriteEase'><div className='pricing-btn'>Choose Plan</div></a>
+                        <a className='hide' href='/'><div className='pricing-btn'>Choose Plan</div></a>
                         <div className='pricing-list'>
                             <ul>
                                 <li>Unlimited Messages</li>

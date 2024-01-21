@@ -20,10 +20,10 @@ export default function ContactUs() {
             <div>
               <div className='strong'>Company</div>
               <ul>
-                <a href='/WriteEase'><li>About Us</li></a>
-                <a href='/WriteEase'><li>Privacy Policy</li></a>
-                <a href='/WriteEase'><li>Terms of Service</li></a>
-                <a href='/WriteEase'><li>Contact Us</li></a>
+                <a href='/'><li>About Us</li></a>
+                <a href='/'><li>Privacy Policy</li></a>
+                <a href='/'><li>Terms of Service</li></a>
+                <a href='/'><li>Contact Us</li></a>
               </ul>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function ContactUs() {
                 <a href='#link1'><li>Use Cases</li></a>
                 <a href='#link2'><li>How it Works</li></a>
                 <a href='#link3'><li>Pricing</li></a>
-                <a href='/WriteEase'><li>Get Started</li></a>
+                <a href='/'><li>Get Started</li></a>
               </ul>
             </div>
           </div>
