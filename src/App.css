@@ -31,7 +31,7 @@
         padding: 20px 27px 9px 27px;
         align-items: center;
         background-color: white;
-        z-index: 3;
+        z-index: 1;
 
         img {
             width: 50vw;
@@ -46,10 +46,10 @@
         height: 100vh;
         position: fixed;
         width: 100vw;
-        z-index: 4;
-        background-color: white;
-        display: none;
-        transition: all 0.3s ease-in-out;
+        z-index: -1;
+        /* background-color: white; */
+        display: fixed;
+        transition: background-color 0.3s ease-in-out;
     }
 
     .navbar {

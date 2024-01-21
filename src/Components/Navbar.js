@@ -9,22 +9,25 @@ export default function Navbar() {
         const listItem = document.querySelectorAll('.navbar-item');
         hamIcon.addEventListener('click', () => {
             navbar.style.transform = 'translateX(72vw)';
-            cover.style.display = "block";
+            // cover.style.display = "block";
             hamIcon.style.zIndex="-5";
+            cover.style.zIndex="4";
             cover.style.backgroundColor = "rgba(0, 0, 0, 0.315)";
         })
         cover.addEventListener('click', () => {
             hamIcon.style.zIndex="1";
             navbar.style.transform = 'translateX(-72vw)';
-            cover.style.display = "none";
-            cover.style.backgroundColor = "white";
+            // cover.style.display = "none";
+            cover.style.zIndex="-1";
+            cover.style.background = "none";
         })
         listItem.forEach(element => {
             element.addEventListener('click', () => {
                 hamIcon.style.zIndex="1";
                 navbar.style.transform = 'translateX(-72vw)';
-                cover.style.display = "none";
-                cover.style.backgroundColor = "white";
+                // cover.style.display = "none";
+                cover.style.zIndex="-1";
+                cover.style.background = "none";
             })
         });
     },[])
