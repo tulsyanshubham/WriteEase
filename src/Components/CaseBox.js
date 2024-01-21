@@ -6,7 +6,7 @@ export default function CaseBox(props) {
     <div className='usercase-cards'>
       <div style={{fontWeight:"700" , fontSize: "1.2rem"}}>{props.title}</div>
       <div>{props.description}</div>
-      <div><a href="/">Try this feature <img src={rarrow} alt="" /></a></div>
+      <div><a href="/WriteEase">Try this feature <img src={rarrow} alt="" /></a></div>
     </div>
   )
 }

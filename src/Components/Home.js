@@ -9,7 +9,7 @@ import ppl4 from '../assets/ppl4.png';
 
 export default function Home() {
     const nonResponsiveTags = `<div class='home-btn-box'>
-    <a href='/'><div class="homebutton navbar-item navbar-cta">
+    <a href='/WriteEase'><div class="homebutton navbar-item navbar-cta">
         <img src=${whatsapp_logo} alt="" />
         <span style="display: flex; align-items: center"> Start on Whatsapp</span>
     </div></a>
@@ -20,7 +20,7 @@ export default function Home() {
     <span>Marketer</span>
 </div>
 <div class='home-btn-box'>
-    <a href='/'><div class="homebutton navbar-item navbar-cta">
+    <a href='/WriteEase'><div class="homebutton navbar-item navbar-cta">
         <img src=${whatsapp_logo} alt="" />
         <span style="display: flex; align-items: center"> Start on Whatsapp</span>
     </div></a>
@@ -60,7 +60,7 @@ export default function Home() {
                         <span>Marketer</span>
                     </div>
                     <div className='home-btn-box'>
-                        <a href='/'><div className="homebutton navbar-item navbar-cta">
+                        <a href='/WriteEase'><div className="homebutton navbar-item navbar-cta">
                             <img src={whatsapp_logo} alt="" />
                             <span style={{ display: "flex", alignItems: "center" }}> Start on Whatsapp</span>
                         </div></a>

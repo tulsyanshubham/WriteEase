@@ -8,7 +8,7 @@ export default function Ready() {
         <div style={{display:"flex",flexDirection:"column",alignItems:"center"}} className='ready-description'>
             Write 10x faster, engage your audiance, never struggle with content creation again.
         </div>
-        <a href='/'><div>Get Started for Free</div></a>
+        <a href='/WriteEase'><div>Get Started for Free</div></a>
       </div>
     </div>
   )
