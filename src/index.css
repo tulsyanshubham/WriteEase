@@ -326,6 +326,12 @@ a {
     font-size: 1.6rem;
     width: 32rem;
 }
+.howitworks-container {
+    padding: 4vw 7vw;
+}
+.howitworks-box {
+    padding: 2rem 0rem;
+}
 
 .works-right :nth-child(4) {
     background-color: var(--darkg);
@@ -605,7 +611,7 @@ a {
     gap: 2rem;
 
     img {
-        width: 20rem;
+        width: 18rem;
     }
 }
 

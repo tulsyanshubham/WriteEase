@@ -58,13 +58,15 @@
         position: fixed;
         justify-content: start;
         width: 72vw;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.248);
         height: 100vh;
         gap: 1.5rem;
         transition: all 0.3s ease-in-out;
         z-index: 5;
         left: -72vw;
-        border-right: 3px solid #0000006e;
+        border-right: 1px solid #0000006e;
+        backdrop-filter: blur(23px);
+        /* color: white; */
 
         .navbar-logo img {
             width: 15rem;
