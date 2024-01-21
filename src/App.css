@@ -10,9 +10,11 @@
         display: block;
         transition: all 0.3s ease-in-out;
     }
-    .ham-icon{
+
+    .ham-icon {
         z-index: 2;
     }
+
     .ham-icon div {
         height: 0.6vw;
         width: 8vw;
@@ -26,7 +28,7 @@
         display: flex;
         width: 100vw;
         justify-content: space-between;
-        padding: 15px 27px 9px 27px;
+        padding: 20px 27px 9px 27px;
         align-items: center;
         background-color: white;
         z-index: 3;
@@ -39,7 +41,8 @@
     .navbar-logo {
         height: fit-content;
     }
-    .cover{
+
+    .cover {
         height: 100vh;
         position: fixed;
         width: 100vw;
@@ -75,16 +78,24 @@
                 width: 100%;
 
                 li {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     width: 100%;
                     text-align: center;
-                    :active{
+                    border-bottom: 2px solid rgb(0 0 0 / 12%);
+
+                    :active {
                         background-color: rgba(0, 0, 0, 0.114);
                     }
                 }
             }
         }
 
+    }
+
+    .ham-btn {
+        margin-top: 1vh;
+        padding: 11px 14px;
+        font-size: 1.1rem;
     }
 
     .hide {

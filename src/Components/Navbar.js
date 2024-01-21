@@ -38,7 +38,7 @@ export default function Navbar() {
                     <a href='#link3'><li className="navbar-item">Pricing</li></a>
                     <a href='#link4'><li className="navbar-item">Contact</li></a>
                 </ul>
-                <div style={{ position: "relative" }}><a href='/WriteEase'><div className="navbar-item navbar-cta ham-btn hide" >Get Started - it's Free</div></a></div>
+                <div style={{ position: "relative" }}><a href='/WriteEase'><div className="navbar-item navbar-cta ham-btn" >Get Started - it's Free</div></a></div>
             </nav>
 
             <div className='non-hide header'>
